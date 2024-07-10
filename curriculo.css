@@ -1,0 +1,152 @@
+body{
+    margin-top: 10%;
+    background-color: #d1bece;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(37, 35, 35);
+    margin-left: 25%;
+    margin-right: 25%;  
+    min-width: 700px;
+
+
+}
+h1, h2, h3, h4, h6{
+    color: #caaa94;
+    text-shadow: -1px -1px #000000;
+    font-family:'American Typewriter', Bookman, URW Bookman L, serif;
+}
+header h1{
+    
+    max-width: 100px;
+    padding-top: 20px;
+    text-align: left;
+    
+}
+#sobre{
+    position: absolute;
+    text-align: justify;
+    width: fit-content;  
+    top: 20px;
+    left: 60%;   
+    right: 10px;
+}
+header{
+    max-width: 750px; position:relative;
+    background-color: #694c65; color: antiquewhite;
+    text-align: justify;    border: 0.5px solid #4d4848;
+    box-shadow: -1px -1px #000000; padding-left: 20px;padding-right: 20px;
+}
+main{
+    background-color: rgb(218, 212, 212);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: -1px -1px #000000; 
+    border: 0.5px solid #4d4848;
+    max-width: 760px;
+    
+}
+.menu-container {
+    position: fixed;
+    top: -18px;
+    z-index: 1000; 
+}
+
+#Menu {
+    margin: 0;
+}
+
+#Menu ul {
+    max-width: 750px;
+    color: rgb(37, 35, 35);
+    display: flex;
+    padding-top: 20px;
+    text-align: center;
+    padding: 0.5em;
+    justify-content: center;
+    letter-spacing: 0.9em;
+    flex-basis: 40px;
+    margin-inline: -4.5%;
+    list-style-type: none;
+    box-shadow: -1px -1px #000000;
+    background-color: rgb(181, 194, 177);
+    border: 0.5px solid #4d4848;
+    flex-wrap: nowrap;
+    -ms-flex-align: start;
+}
+
+#Menu a:hover {
+    color: #9e6743;
+    font-weight: bold;
+}
+
+#Menu a {
+    color: rgb(37, 35, 35);
+    margin: 4%;
+    padding-top: 20px;
+    text-align: left;
+    text-decoration: none;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    margin-inline: 5px;
+    padding-left: 10px;
+}
+
+.content {
+    margin-top: 100px; /* Adjust based on the height of your fixed menu */
+    padding: 1rem;
+}
+::selection{
+    background: rgb(181, 194, 177);
+    color: #694c65;
+}
+ul{
+    list-style-type: none;
+}
+@media screen and (max-width: 786px){
+    body{
+        margin-right: 1px;
+        margin-left: 50px;
+        min-width: fit-content;
+        text-align: right;
+    }
+    #Menu ul{
+        flex-wrap: wrap;
+        max-width: 110px;  padding-left: unset;
+        font-size: smaller;      min-height: 400px;
+    }
+    #sobre{
+        position: unset;
+    }
+    #Menu {
+        top: 30%;
+        position: fixed;
+        margin-left: -14%;
+        margin-right: unset;
+    }
+    #sobre{
+        text-align: right;
+    }
+    header h1{
+    
+        max-width: unset;
+        text-align: right;
+        
+    }
+}
+li{
+    padding-bottom: 6px;
+}
+footer{
+    background-color: #694c65;
+    max-width: 750px;
+    color: antiquewhite;
+    text-align: justify;   
+    box-shadow: -1px -1px #000000; 
+    padding-left: 20px;padding-right: 20px;
+}
+
+img{
+    border-radius: 50%;
+    left: 500px;
+}
